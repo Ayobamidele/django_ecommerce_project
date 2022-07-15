@@ -48,3 +48,4 @@ def test_adminuser_email_not_superuser(customer_factory):
 def test_address_str(address):
     name = address.full_name
     assert address.__str__() == name + " Address"
+
